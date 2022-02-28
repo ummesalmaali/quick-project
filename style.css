@@ -92,7 +92,8 @@ nav ul li a:hover {
 .feature-section h1 {
 }
 
-/* ?service-section */
+/* service-section */
+
 .service-section {
 }
 .col-3 {
@@ -124,7 +125,16 @@ service h3 {
 .service img {
   max-width: 300px;
 }
+.service h3 {
+}
+.service p {
+}
+
 .footer {
 }
 .copyright {
+}
+.copyright p {
+}
+.copyright p a {
 }
