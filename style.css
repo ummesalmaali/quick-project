@@ -23,34 +23,46 @@ body {
 header {
   background: aliceblue;
   padding: 30px 0;
-  border: 2px solid var(--navy-blue);
+  border-bottom: 1px solid var(--navy-blue);
 }
 .container {
-  width: 1200px;
-  margin: auto;
+  padding: 0 100px;
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
 }
 .logo {
   flex-basis: 20%;
+  max-width: 20%;
 }
 .logo img {
 }
 nav {
+  flex-basis: 80%;
+  max-width: 80%;
 }
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 nav ul li {
+  padding: 10px;
 }
 nav ul li a {
   display: flex;
   text-decoration: none;
-  color: #000;
+  color: var(--navy-blue);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 500;
 }
 nav ul li a:hover {
+  color: var(--blue);
 }
 
 /* banner section */
