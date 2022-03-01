@@ -9,11 +9,7 @@
   --navy-blue: #102556;
   --red: #f05766;
 }
-.container {
-  max-width: 1200px;
-  margin: auto;
-  color: black;
-}
+
 img {
   max-width: 100%;
 }
@@ -21,9 +17,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 header {
-  background: aliceblue;
   padding: 30px 0;
-  border-bottom: 1px solid var(--navy-blue);
+  border-bottom: 1px solid #10255615;
 }
 .container {
   padding: 0 100px;
@@ -68,9 +63,11 @@ nav ul li a:hover {
 /* banner section */
 
 .banner-section {
+  padding: 50px 0;
 }
 .container-sm {
-  max-width: 800px;
+  max-width: 1000px;
+  margin: auto;
 }
 .banner {
   text-align: center;
