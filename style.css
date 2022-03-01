@@ -127,6 +127,7 @@ nav ul li a:hover {
 /* service-section */
 
 .service-section {
+  padding: 50px 0;
 }
 .col-3 {
   flex-basis: 33.33%;
@@ -135,11 +136,10 @@ nav ul li a:hover {
 }
 
 .service {
-  padding: 80px 50px;
+  padding: 50px 30px;
   text-align: center;
 }
 .service:hover {
-  border: 1px solid var(--blue);
   box-shadow: 0 0 10px var(--red);
 }
 
@@ -157,9 +157,9 @@ nav ul li a:hover {
 }
 .service h3 {
   text-align: left;
-  font-size: 28px;
+  font-size: 24px;
   color: var(--navy-blue);
-  margin: 10px 0;
+  margin: 16px 0;
 }
 .service p {
   text-align: left;

@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  /* 0-1200pxs */
+
+  .banner img {
+    width: 500px;
+  }
+  .banner h1,
+  .feature-section h1,
+  .feature-section h2 {
+    font-size: 45px;
+  }
+  .container-sm {
+    max-width: 800px;
+  }
+  .service {
+    padding: 45px 20px;
+  }
+  .col-3 {
+    padding: 10px;
+  }
+  .service h3 {
+    font-size: 22px;
+
+    margin: 16px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1200px) {
+}
