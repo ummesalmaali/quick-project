@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   /* 0-1200pxs */
 
   .banner img {
@@ -26,10 +26,77 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    padding: 0 50px;
+  }
+  .service h3 {
+    font-size: 20px;
+
+    margin: 5px 0;
+  }
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
+  .col-3 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 20px;
+    margin: auto;
+  }
+  .feature-section .col-2 {
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 10px;
+  }
+  .col-1 {
+    padding: 0;
+  }
+  .feature-section .flex {
+    justify-content: center;
+  }
+  .text-right {
+    text-align: center;
+  }
+  .feature-section h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .feature-section p {
+    padding: 2px;
+  }
+  .container-sm {
+    max-width: 550px;
+  }
+  .banner h1 {
+    font-size: 35px;
+  }
+  .banner img {
+    width: 400px;
+  }
+  .banner-section {
+    padding-bottom: 0;
+  }
+  nav ul li a {
+    padding: 10px 5px;
+  }
 }
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+  .logo,
+  nav,
+  .col-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .logo {
+    text-align: center;
+  }
+  .container-sm {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  nav ul li a {
+    padding: 10px 1px;
+  }
 }
 @media (max-width: 1200px) {
 }
