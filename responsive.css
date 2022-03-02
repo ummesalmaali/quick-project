@@ -36,6 +36,9 @@
   }
 }
 @media (max-width: 992px) {
+  .container {
+    padding: 0 30px;
+  }
   .col-3 {
     flex-basis: 50%;
     max-width: 50%;
