@@ -33,8 +33,7 @@ header {
   flex-basis: 20%;
   max-width: 20%;
 }
-.logo img {
-}
+
 nav {
   flex-basis: 80%;
   max-width: 80%;
@@ -155,12 +154,7 @@ nav ul li a:hover {
 .service img {
   height: 240px;
 }
-.service h3 {
-  text-align: left;
-  font-size: 24px;
-  color: var(--navy-blue);
-  margin: 16px 0;
-}
+
 .service p {
   text-align: left;
 }
@@ -168,8 +162,7 @@ nav ul li a:hover {
 footer {
   text-align: center;
 }
-.copyright {
-}
+
 .copyright p {
   color: #ffffff91;
   font-size: 17px;
