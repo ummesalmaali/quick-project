@@ -1,2 +1,2 @@
 # quick-project
-live link: quick-project.vercel.app
+live link: https://quick-project.vercel.app/
